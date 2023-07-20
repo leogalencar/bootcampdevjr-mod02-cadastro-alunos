@@ -77,6 +77,24 @@ function addNewRow(student) {
 }
 
 
+// Save student from form
+function saveStudent() {
+    var student = {
+        id: students.length + 1,
+        name: document.getElementById('inputName').value,
+        email: document.getElementById('inputEmail').value,
+        number: document.getElementById('inputNumber').value,
+        course: document.getElementById('selectCourses').value,
+        course_shift: document.querySelector('input[name="radioShift"]:checked').value
+    };
+
+    addNewRow(student);
+    students.push(student);
+
+    document.getElementById('form').reset();
+}
+
+
 // Alternative addNewRow function
 // function addNewRow(student) {
 //     var table = document.getElementById('studentsTable');
