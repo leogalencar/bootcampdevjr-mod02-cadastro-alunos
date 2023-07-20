@@ -33,6 +33,10 @@ var shifts = [
 ];
 
 
+// Masks
+$('#inputNumber').mask('(99) 99999-9999');
+
+
 // On load
 loadStudents();
 
