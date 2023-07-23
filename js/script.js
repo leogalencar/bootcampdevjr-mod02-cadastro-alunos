@@ -8,14 +8,6 @@ var students = [
         course: 2,
         course_shift: 1
     },
-    {
-        id: 2,
-        name: 'Pessoa 2',
-        email: 'teste@teste.com',
-        number: '(11) 99999-9999',
-        course: 1,
-        course_shift: 3
-    }
 ];
 
 
